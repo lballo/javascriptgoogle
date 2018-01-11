@@ -1,0 +1,135 @@
+/*.navigation
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+}*/
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li
+{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.image_google img
+{
+    width:50%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barre_recherche /* Il faudrait réussir a modifier la hauteur de la barre de recherche*/
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*position: absolute;*/
+    /*height:auto;*/
+    
+}
+
+input[type=barre_recherche_Google] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+.element li
+{
+    display: inline-block;
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#f2f2f2;
+    color:#757575;
+    border-radius:2px;
+    width:100px;
+    border:1px solid #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.main
+{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.langue
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Verdana;
+}
+
+.France
+{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    line-height: 12px;
+    color:#757575;
+
+}
+
+#Autre
+{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+.Autre1
+{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.E
+{
+padding-right: 12px;
+color:#757575;
+
+}
+
+.Autre2
+{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

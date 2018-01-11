@@ -1,2 +1,2 @@
-# javascriptgoogle
-Version javascript page Google
+# Google
+Google home page

@@ -19,7 +19,11 @@
     <!-- Menu de navigation-->
 
     <!-- Tentative de "master div" main pour centrer Recherche Google et J'ai de la chance-->
-    <div class="main">
+    <button onclick="afficherCacher()" id="button">AFFICHER LES ELEMENTS CENTRAUX</button>
+
+	<div id="afficher">
+
+    <div id="main">
 
         <!-- image centrale Google-->
         <div class="image_google main">
@@ -28,18 +32,20 @@
 
         <!-- Barre centrale de recherche-->
         <div class="barre_recherche main">
-            <input size="60" type="search" name="search"> <!-- Ajouter attribut size="60" si on arrive pas a modifier la largeur de la search bar autrement -->
+    	<form id=frml action="https://www.google.fr/search" method="get">
+            <input size="60" type="search" name="q"> <!-- Ajouter attribut size="60" si on arrive pas a modifier la largeur de la search bar autrement -->
         </div>
 
         <!-- Elements Recherche Google et j'ai de la chance-->
         <div class="box main">
             <div class="element main">
                 <ul>
-                    <li>Recherche Google</li>
-                    <li>J'ai de la chance</li>
+                    <li><input size="60" type="submit" name="search" value="Recherche Google"></li>
+                    <li><input size="60" type="submit" name="search" value="J'ai de la chance"></li>
                 </ul>
             </div>  
         </div>
+        </form>
 
     </div>
 
@@ -72,6 +78,7 @@
    <!-- Autres élements footer-->
     
 </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
